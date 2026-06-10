@@ -21,5 +21,19 @@ namespace Cleening
         {
 
         }
+
+        private void btnEmployee_Click(object sender, EventArgs e)
+        {
+            FormEmployee formEmployee = new FormEmployee();
+            formEmployee.Show();
+            this.Hide();
+        }
+
+        private void btnContractor_Click(object sender, EventArgs e)
+        {
+            FormContractor formContractor = new FormContractor();
+            formContractor.Show();
+            this.Hide();
+        }
     }
 }
