@@ -16,5 +16,12 @@ namespace Cleening
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FormRequest formRequest = new FormRequest();
+            formRequest.Show();
+            this.Hide();
+        }
     }
 }
