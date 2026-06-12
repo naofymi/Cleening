@@ -88,7 +88,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
             this.Name = "FormContractor";
-            this.Text = "FormContractor";
+            this.Text = "Список заявок";
             this.Load += new System.EventHandler(this.FormContractor_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
